@@ -1,0 +1,4 @@
+# AuthName "Admin Pannel"
+# AuthType Basic
+# AuthUserFile "I:\wamp\htdocs\VersionTest\admin\.htpasswd"
+# Require valid-user

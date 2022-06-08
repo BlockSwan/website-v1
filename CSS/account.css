@@ -1,0 +1,50 @@
+/* BIG Size (Laptop) */
+
+@media(min-width:768px){
+    #gifWorking{
+        height: 50%;
+        
+    }
+  
+    
+  
+  
+  
+}
+  
+
+
+
+/* Small Size (PHONE) */
+
+@media(max-width:768px){
+ 
+    #gifWorking{
+        height: 50%;
+    }
+
+    
+
+}
+
+#metrics{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+#metrics:hover{
+    color: var(--primary-color);
+}
+
+#account{
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+#zoneGIF{
+    height: 50%;
+}
+
+#gifWorking{
+border-top-left-radius: 100px;
+border-top-right-radius: 100px;
+}

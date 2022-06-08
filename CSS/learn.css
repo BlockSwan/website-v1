@@ -1,0 +1,187 @@
+/* BIG Size (Laptop) */
+
+@media(min-width:768px){
+  
+    .intro{
+        font-size: 1.8vh;
+    }
+    .accordion, .accordion-button{
+        font-size: 1.8vh;
+    
+    }
+
+
+    
+    
+  
+  
+  
+}
+  
+
+
+
+/* Small Size (PHONE) */
+
+@media(max-width:768px){
+    .intro{
+        font-size: 1.4vh;
+    }
+
+    .accordion, .accordion-button{
+            font-size: 1.5vh;
+        
+        }
+    
+
+}
+
+
+/* OUT OF Small Size (PHONE) */
+
+body{
+    overflow: auto;
+}
+#metrics{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+#metrics:hover{
+    color: var(--primary-color);
+}
+
+#learn{
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+.nav{
+    height:5vh;
+}
+
+
+.nav-item{
+    font-family: "Best Choice Demo";
+    font-size: 1.4vh;
+    justify-content: space-between;
+}
+.nav-link{
+    width: 100%;
+    color: var(--secondary-color);
+    padding: 0.3rem 1rem;
+
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: var(--primary-color);
+    background-color: var(--secondary-color);   
+     border: 0.01rem solid var(--secondary-color);
+
+}
+.nav-link:hover, .links:hover {
+background-color: var(--secondary-color);
+border:none;
+color: var(--primary-color);
+text-decoration: none;
+}
+
+
+
+
+.nav-tabs {
+border:none;
+
+}
+
+li{
+    border:none;
+}
+.nav-tabs .nav-link {
+
+    border-top-left-radius: 0rem; 
+    border-top-right-radius: 0rem; 
+    height: 90%;
+    border: 0.01rem solid var(--secondary-color);
+
+}
+
+.intro{
+    border: 1px dotted var(--secondary-color);
+    padding: 2;
+    font-family: "Best Choice Demo";
+    color: var(--secondary-color);
+}
+
+#tabZone{
+    position: relative;
+    bottom: 10px;
+}
+
+.accordion, .accordion-button{
+    color: var(--secondary-color);
+    font-family: "Best Choice Demo";
+    background-color: var(--primary-color);
+    border: none;
+    outline: none;
+    border:none;
+
+}
+
+.accordion-button{
+    background-image: none;
+    content: '\02795';
+}
+.accordion-button:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+    content: '';
+}
+
+.accordion-button:not(.collapsed) {
+    content: "\2796";
+    color:var(--secondary-color);
+    background-color: var(--primary-color);
+    box-shadow: none;
+}
+
+.accordion-body{
+    background-color: var(--primary-color);
+    background-image: none;
+    outline: none;
+}
+
+.accordion-button::after {
+    background-image: none;
+
+    content: '';
+
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: none;
+    content:'';
+    transform: rotate(
+-180deg);
+}
+
+.accordion-button.collapsed {
+    border:none;
+}
+.iconCrypto{
+    width: 3vh;
+}
+.assetLink{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
+.letterTitle{
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    height: 3vh;
+}
+
+
+

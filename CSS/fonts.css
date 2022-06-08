@@ -1,0 +1,43 @@
+@font-face {
+    font-family: "Best Choice Demo";
+    src: url(../fonts/BestChoiceDemo-Regular.otf);
+}
+
+p,a{
+    font-family: "Best Choice Demo";
+    color: var(--secondary-color);
+    list-style: none;
+    text-decoration: none;
+    
+}
+a:hover, a:focus, a:active{
+    color: inherit;
+}
+mark{
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+
+#caption{
+    font-size: 3vh;
+}
+
+
+h2{
+    font-family: "Best Choice Demo";
+
+}
+
+p #mission, .winbox-text{
+    font-family: "Best Choice Demo";
+    color: var(--secondary-color);
+}
+
+.btnFooter{
+    font-family: "Best Choice Demo";
+    
+}
+
+.winbox-text a{
+    text-decoration: underline;
+}
